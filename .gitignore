@@ -1,0 +1,7 @@
+target/
+dist/
+.build-cache/
+release/
+*.swp
+.DS_Store
+.intentionally-empty-file.o

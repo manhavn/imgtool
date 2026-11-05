@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="pen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded App Tile -->
+  <rect x="6" y="6" width="116" height="116" rx="26" fill="url(#bg)" stroke="#38bdf8" stroke-width="4"/>
+  <!-- Inner Frame / Crop Guides -->
+  <path d="M 26 42 L 26 26 L 42 26" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 86 26 L 102 26 L 102 42" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 26 86 L 26 102 L 42 102" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 102 86 L 102 102 L 86 102" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Mountain & Sun Landscape -->
+  <circle cx="46" cy="48" r="9" fill="#fbbf24"/>
+  <path d="M 28 92 L 52 62 L 70 80 L 84 66 L 100 92 Z" fill="url(#accent)" opacity="0.9"/>
+  <!-- Annotation Arrow -->
+  <path d="M 38 82 L 86 38" fill="none" stroke="url(#pen)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 68 36 L 90 34 L 88 56 Z" fill="#f43f5e"/>
+</svg>
